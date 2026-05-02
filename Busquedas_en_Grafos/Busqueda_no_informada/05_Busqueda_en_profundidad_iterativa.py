@@ -1,6 +1,5 @@
 # Búsqueda en profundidad iterativa (IDDFS) en grafos
 
-# Representación del grafo como diccionario de listas de adyacencia
 grafo = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],

@@ -1,6 +1,4 @@
 # Búsqueda en profundidad limitada (DLS) en grafos
-
-# Representación del grafo como diccionario de listas de adyacencia
 grafo = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -32,7 +30,7 @@ def busqueda_profundidad_limitada(grafo, inicio, objetivo, limite):
                 return True
 
         camino.pop()
-        visitados.remove(nodo_actual)  # Opcional: permitir re-visitas en diferentes caminos
+        visitados.remove(nodo_actual)  
         return False
 
     encontrado = dls(inicio, 0)
