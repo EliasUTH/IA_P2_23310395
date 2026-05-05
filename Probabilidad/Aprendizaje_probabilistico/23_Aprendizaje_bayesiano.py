@@ -47,6 +47,7 @@ for i in range(1, 101):
         estimacion, nivel = aprendiz.obtener_creencia()
         print(f"{i:<10} | {resultado:<12} | {estimacion*100:>13.2f}% | {nivel}")
 
+
 print("\n=== ANÁLISIS DEL APRENDIZAJE ===")
 print("1. Prior: La IA empezó creyendo que era 50/50 (ignorancia inicial).")
 print("2. Verosimilitud: Cada lanzamiento es una evidencia que desafía o apoya la creencia.")
