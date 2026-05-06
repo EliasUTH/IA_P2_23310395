@@ -65,6 +65,7 @@ resultado = svm.predecir(punto_test)
 print(f"Punto a evaluar: {punto_test}")
 print(f"Resultado de la clasificación: {'Positivo (1)' if resultado == 1 else 'Negativo (-1)'}")
 
+
 print("\n=== ANÁLISIS TÉCNICO ===")
 print("1. El SVM no guarda una pendiente 'w', guarda los puntos clave (Vectores de Soporte).")
 print("2. El Truco del Kernel permite calcular la similitud en altas dimensiones")
