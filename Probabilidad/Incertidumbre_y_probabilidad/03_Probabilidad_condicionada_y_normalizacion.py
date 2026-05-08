@@ -1,5 +1,4 @@
 import math
-
 print("=== PARTE 1: PROBABILIDAD CONDICIONADA P(A|B) ===\n")
 # La probabilidad condicionada es la probabilidad de que ocurra un evento A, 
 # sabiendo que ya ocurrió un evento B. P(A|B) = P(A y B) / P(B)
