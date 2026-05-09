@@ -20,6 +20,7 @@ def restringir_evidencia(vars_f, tabla_f, evidencia):
             
     return nuevas_vars, nueva_tabla
 
+
 def multiplicar_factores(vars_f1, tabla_f1, vars_f2, tabla_f2):
     """ Une dos factores matemáticamente (Producto Punto a Punto). """
     nuevas_vars = vars_f1 + [v for v in vars_f2 if v not in vars_f1]
