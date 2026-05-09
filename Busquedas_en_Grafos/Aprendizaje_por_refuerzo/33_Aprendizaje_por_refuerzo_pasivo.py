@@ -169,6 +169,7 @@ for state in states:
 rl_agent.V = {s: 0 for s in mdp.states}
 rl_agent.direct_evaluation(episodes=10000)
 
+
 print("\nFunción de valor estimada con Evaluación Directa:")
 for state in states:
     if state in rl_agent.V:
