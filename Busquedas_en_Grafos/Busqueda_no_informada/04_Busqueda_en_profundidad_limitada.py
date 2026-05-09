@@ -36,6 +36,7 @@ def busqueda_profundidad_limitada(grafo, inicio, objetivo, limite):
     encontrado = dls(inicio, 0)
     return camino if encontrado else None
 
+
 if __name__ == '__main__':
     inicio = 'A'
     objetivo = 'F'
