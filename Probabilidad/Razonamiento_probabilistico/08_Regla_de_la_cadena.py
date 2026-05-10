@@ -73,6 +73,7 @@ _, _, _, resultado_perfecto = regla_de_la_cadena(False, False, False)
 print("Calculando la probabilidad del escenario perfecto P(No Llueve, No Tráfico, No Tarde)...")
 print(f"-> Probabilidad Total (Conjunta) = {resultado_perfecto * 100:.2f}%\n")
 
+
 if resultado_final > resultado_perfecto:
     print("IA: Te recomiendo salir temprano hoy, la probabilidad del caos es mayor a la de un viaje perfecto.")
 else:
