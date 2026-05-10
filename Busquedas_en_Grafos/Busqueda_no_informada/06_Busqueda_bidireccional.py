@@ -61,7 +61,6 @@ def busqueda_bidireccional(grafo, start, goal):
                         return camino_start + camino_actual[1:]  
     return None  
 
-
 # Ejemplo de uso
 if __name__ == "__main__":
     g = Grafo()
