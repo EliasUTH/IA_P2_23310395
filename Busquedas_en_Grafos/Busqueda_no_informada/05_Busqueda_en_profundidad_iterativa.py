@@ -45,6 +45,7 @@ def busqueda_profundidad_iterativa(grafo, inicio, objetivo, max_profundidad=10):
             return camino, limite
     return None, None
 
+
 if __name__ == '__main__':
     inicio = 'A'
     objetivo = 'F'
