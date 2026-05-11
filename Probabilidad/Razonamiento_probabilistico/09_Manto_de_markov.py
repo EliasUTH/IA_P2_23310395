@@ -49,6 +49,7 @@ def obtener_manto_de_markov(nodo_objetivo):
 
 # --- ESCENARIO DE EXTRACCIÓN DEL MANTO ---
 
+
 # Queremos analizar el nodo "Aspersor"
 nodo_a_analizar = "Aspersor"
 
