@@ -83,6 +83,7 @@ def muestreo_por_rechazo(consulta, evidencia, num_simulaciones):
     prob_final = consulta_cumplida / muestras_aceptadas
     return prob_final, muestras_aceptadas, muestras_rechazadas
 
+
 # Escenario: Queremos saber P(Nublado=True | Lluvia=False, Aspersor=True)
 consulta_ia = ("Nublado", True)
 evidencia_ia = {"Lluvia": False, "Aspersor": True}
