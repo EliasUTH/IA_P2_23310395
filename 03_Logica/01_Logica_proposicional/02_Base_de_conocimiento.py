@@ -15,6 +15,7 @@ class SistemaExperto:
 
 
 
+
     def agregar_regla(self, condiciones, conclusion):
         """
         Añade una regla lógica. 
