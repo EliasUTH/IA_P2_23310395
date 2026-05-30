@@ -130,6 +130,7 @@ print("--- CASO 5: Fallo por el 'Occurs Check' ---")
 probar_unificacion(("Padre", "x", "x"), ("Padre", "x", ("Padre", "x")))
 
 
+
 print("=== ANÁLISIS TÉCNICO ===")
 print("1. Sustitución (Theta): El diccionario resultante es la 'respuesta' a la consulta lógica.")
 print("2. Occurs Check: Es la defensa del motor contra bucles infinitos. Matemáticamente, x no puede ser igual a f(x).")
