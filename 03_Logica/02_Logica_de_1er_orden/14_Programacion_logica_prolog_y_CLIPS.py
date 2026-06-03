@@ -16,6 +16,7 @@ class MiniProlog:
         print(f"[Prolog] Hecho asertado: {hecho}.")
 
 
+
     def regla(self, cabeza, cuerpo_func):
         """
         Define una regla. En Prolog real sería: cabeza :- cuerpo.
