@@ -10,6 +10,7 @@ universo = [
 
 
 
+
 # --- 2. SINTAXIS: PREDICADOS ---
 # Un predicado es una función que toma un objeto y devuelve Verdadero o Falso.
 def Humano(x): return x["es_humano"]
